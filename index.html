@@ -1,0 +1,1251 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="vendors/css/bootstrap.min.css" />
+    <!-- End of Bootstrap -->
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <!-- end of google fonts -->
+    <!-- main css -->
+    <link rel="stylesheet" href="resources/css/style.css" />
+    <link rel="stylesheet" href="resources/css/media.css" />
+    <!-- end of main css -->
+    <!-- font-awsome -->
+    <script src="vendors/js/all.js"></script>
+    <!-- end of font-awsome -->
+    <!-- animation css -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <!-- end of animation css -->
+    <!-- title -->
+    <link
+      rel="shortcut icon"
+      href="resources/img/favicon.png"
+      type="image/x-icon"
+    />
+    <title>Aria</title>
+  </head>
+  <body id="body">
+    <!-- loading -->
+    <div class="loader_bg">
+      <div class="loader">
+        <img src="vendors/img/bulb.gif" alt="#" />
+      </div>
+    </div>
+    <!-- end of loading -->
+    <a href="#body" class="arrow hidden"></a>
+    <nav id="navbar_top" class="navbar navbar-dark navbar-expand-md justify-content-between">
+      <!-- logo -->
+      <div class="container">
+        <a href="index.html" class="">
+          <img src="resources/img/logo.svg" id="img" class="navbar-brand img_logo"/>
+        </a>
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarLinks">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse text-center justify-content-end"id="navbarLinks">
+          <ul class="navbar-nav">
+            <li class="nav-item p-0 active">
+              <a href="#header" class="nav-link">HOME</a>
+            </li>
+            <li class="nav-item p-0">
+              <a href="#intro" class="nav-link">INTRO</a>
+            </li>
+            <li class="nav-item px-2">
+              <a href="#services" class="nav-link">SERVICES</a>
+            </li>
+            <li class="nav-item p-0">
+              <a href="#form" class="nav-link">CALL ME</a>
+            </li>
+            <li class="nav-item p-0">
+              <a href="#projects" class="nav-link">PROJECTS</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">MORE</a>
+              <div class="dropdown-menu text-center" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#about">ABOUT</a>
+                <div class="dropdown-divider mx-4"></div>
+                <a class="dropdown-item" href="#">TERMES CONDITIONS</a>
+                <div class="dropdown-divider mx-4"></div>
+                <a class="dropdown-item" href="#">PRIVACY POLICY</a>
+              </div>
+            </li>
+            <li class="nav-item p-0">
+              <a href="#contact" class="nav-link">CONTACT</a>
+            </li>
+            <li class="nav-item p-0 d-no">
+              <a href="#pricing" class="nav-link nav-link-icon">
+                <span class="fa-stack fa-1x">
+                  <i class="fas fa-circle fa-stack-2x green-circle"></i>
+                  <i class="fab fa-facebook-f fa-stack-1x fa-inverse white-icon"></i>
+                </span>
+              </a>
+            </li>
+            <li class="nav-item p-0 d-no">
+              <a href="#pricing" class="nav-link nav-link-icon">
+                <span class="fa-stack fa-1x">
+                  <i class="fas fa-circle fa-stack-2x green-circle"></i>
+                  <i class="fab fa-twitter fa-stack-1x fa-inverse white-icon"></i>
+                </span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <header id="header" class="py-5">
+      <div class="container">
+        <div class="row align-items-center height text-center">
+          <div class="col">
+            <h1 class="display-4">
+              <span class="fixe">BUSINESS</span>
+              <span id="words"></span>
+            </h1>
+            <p class="mb-4">
+              Aria is a top consultancy company specializing in business growth
+              using online marketing and conversion optimization tactics
+            </p>
+            <button type="button" class="btn">DISCOVER</button>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main id="intro" class="py-5">
+      <div class="container">
+        <div class="row py-5">
+          <div class="col-xl-5 col-lg-5">
+            <div class="text-container">
+              <span class="">INTRO</span>
+              <h2>
+                We Offer Some Of The Best Business Growth Services In Town
+              </h2>
+              <p>
+                Launching a new company or developing the market position of an
+                existing one can be quite an overwhelming processs at times.
+              </p>
+              <p class="p-italic">
+                "Our mission here at Aira is to get you through those tough
+                moments relying on our team's expertise in starting and growing
+                companies."
+              </p>
+              <h3>Louise Donovan - CEO</h3>
+            </div>
+          </div>
+          <div class="col-xl-7 col-lg-7">
+            <div class="main-img">
+              <img src="resources/img/intro-office.jpg" class="img-fluid" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <section id="cards-1" class="pb-5">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col-lg-4">
+            <div class="card align-items-center">
+              <span class="fa-stack fa-3x mb-4">
+                <i class="fas fa-circle fa-stack-2x green-circle"></i>
+                <i class="fas fa-binoculars fa-stack-1x fa-inverse"></i>
+              </span>
+              <h3 class="mb-4">Environment Analysis</h3>
+              <p class="mb-5">
+                The starting point of any success story is knowing your current
+                position in the business environment
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="card align-items-center">
+              <span class="fa-stack fa-3x mb-4">
+                <i class="fas fa-circle fa-stack-2x green-circle"></i>
+                <i class="fas fa-list-alt fa-stack-1x fa-inverse"></i>
+              </span>
+              <h3 class="mb-4">Development Planning</h3>
+              <p class="mb-5">
+                After completing the environmental analysis the next stage is to
+                design and plan your development strategy
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="card align-items-center">
+              <span class="fa-stack fa-3x mb-4">
+                <i class="fas fa-circle fa-stack-2x green-circle"></i>
+                <i class="fas fa-chart-pie fa-stack-1x fa-inverse"></i>
+              </span>
+              <h3 class="mb-4">Execution & Evaluation</h3>
+              <p class="mb-5">
+                In this phase you will focus on executing the actions plan and
+                evaluating the results after each marketing campaign
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <article id="services" class="py-5">
+      <div class="container">
+        <div class="row text-center justify-content-center">
+          <div class="col-lg-6 col-md-8 col-sm-10 col-12">
+            <div class="text-container">
+              <span>SERVICES</span>
+              <h2>Choose The Service Package That Suits Your Needs</h2>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="card my-5 py-5">
+              <img src="resources/img/services-1.jpg" alt="" />
+              <h4 class="my-4 mx-5 text-center">
+                Off The Ground Off The Ground
+              </h4>
+              <p class="mx-5">
+                Perfect for fresh ideas or young startups, this package will
+                help get the business off the ground
+              </p>
+              <span class="mx-5 mb-2">
+                <i class="fas fa-square green-circle icon-size"></i>
+                Environment and competition
+              </span>
+              <span class="mx-5 mb-2">
+                <i class="fas fa-square green-circle icon-size"></i>
+                Designing the marketing plan
+              </span>
+              <h5 class="mx-5 my-3 text-center">
+                Starting at <span>$199</span>
+              </h5>
+              <div class="card-body text-center">
+                <button type="button" class="btn">DETAILS</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="card my-5 py-5">
+              <img src="resources/img/services-2.jpg" alt="" />
+              <h4 class="my-4 mx-5 text-center">Accelerated Growth</h4>
+              <p class="mx-5">
+                Use this service pack to give your company the necessary impulse
+                to become an industry leader
+              </p>
+              <span class="mx-5 mb-2">
+                <i class="fas fa-square icon-size green-circle"></i>
+                Business strategy planning
+              </span>
+              <span class="mx-5 mb-2">
+                <i class="fas fa-square green-circle icon-size"></i>
+                Taking the planned actions
+              </span>
+              <h5 class="mx-5 my-3 text-center">
+                Starting at <span>$299</span>
+              </h5>
+              <div class="card-body text-center">
+                <button type="button" class="btn">DETAILS</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="card my-5 py-5">
+              <img src="resources/img/services-3.jpg" alt="" />
+              <h4 class="my-4 mx-5 text-center">Market Domination</h4>
+              <p class="mx-5">
+                You already are a reference point in your industry now you need
+                to learn about acquisitions
+              </p>
+              <span class="mx-5 mb-2">
+                <i class="fas fa-square green-circle icon-size"></i>
+                Maintaining the leader status
+              </span>
+              <span class="mx-5 mb-2">
+                <i class="fas fa-square green-circle icon-size"></i>
+                Acquisitions the right way
+              </span>
+              <h5 class="mx-5 my-3 text-center">
+                Starting at <span>$299</span>
+              </h5>
+              <div class="card-body text-center">
+                <button type="button" class="btn">DETAILS</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </article>
+    <section id="details" class="">
+      <div class="container-fluid">
+        <div class="row no-gutters align-items-center">
+          <div class="col-lg-6 bg_img1"></div>
+          <div class="col-lg-6">
+            <div class="text-container ml-5">
+              <h2>Accelerate Business Growth To Improve Revenue Numbers</h2>
+              <div
+                id="click1"
+                class="checkbox-item d-flex margin mb-2"
+                onclick="showhide1()"
+              >
+                <div class="numbers-circle align-self-center py-1 px-3">1</div>
+                <h3 id="details_h3_1" class="align-self-center">
+                  How Can Aria Help Your Business
+                </h3>
+              </div>
+              <p id="p1" class="">
+                At Aria solutions, we’ve taken the consultancy concept one step
+                further by offering a full service management organization with
+                expertise.
+              </p>
+              <div
+                id="click2"
+                class="checkbox-item d-flex margin mb-2"
+                onclick="showhide2()"
+              >
+                <div class="numbers-circle align-self-center py-1 px-3">2</div>
+                <h3 id="details_h3_2" class="align-self-center">
+                  Great Strategic Business Planning
+                </h3>
+              </div>
+              <p id="p2" class="hidden">
+                Aria partners with businesses to business growth and development
+                ideas including environment analysis, plan execution and
+                evaluation.
+              </p>
+              <div
+                id="click3"
+                class="checkbox-item d-flex margin mb-2"
+                onclick="showhide3()"
+              >
+                <div class="numbers-circle align-self-center py-1 px-3">3</div>
+                <h3 id="details_h3_3" class="align-self-center">
+                  Online Marketing Campaigns
+                </h3>
+              </div>
+              <p id="p3" class="hidden">
+                An awesome online marketing plan won't save your bad product but
+                paired with a good product, the sky is the limit for what can be
+                achieved.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="tabs">
+      <div class="container-fluid">
+        <div class="row no-gutters align-items-center">
+          <div class="col-lg-6">
+            <div class="tabs-container mx-5 py-5">
+              <!-- Nav tabs -->
+            <ul class="nav nav-tabs justify-content-center mb-3">
+              <li class="nav-item">
+                <a class="nav-link active" data-toggle="tab" href="#home"
+                  ><i class="fas fa-th mr-2"></i>Business</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" data-toggle="tab" href="#menu1"
+                  ><i class="fas fa-th mr-2"></i>Expertise</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" data-toggle="tab" href="#menu2"
+                  ><i class="fas fa-th mr-2"></i>Quality</a
+                >
+              </li>
+            </ul>
+            <!-- Tab panes -->
+            <div class="tab-content">
+              <div class="tab-pane container active" id="home">
+                <h4>Business Services For Companies</h4>
+                <p>
+                  Aria provides the most innovative and customized business
+                  services in the industry. Our
+                  <a href="#" class="green-circle">Services</a> section shows
+                  how flexible we are for all types of budgets.
+                </p>
+                <div class="title">Business Development 100%</div>
+                <div class="progress mb-4">
+                  <div
+                    class="progress-bar progress-bar-striped"
+                    style="width: 100%"
+                  ></div>
+                </div>
+                <div class="title">Opportunity Spotting 76%</div>
+                <div class="progress mb-4">
+                  <div
+                    class="progress-bar progress-bar-striped"
+                    style="width: 76%"
+                  ></div>
+                </div>
+                <div class="title">Online Marketing 90%</div>
+                <div class="progress mb-4">
+                  <div
+                    class="progress-bar progress-bar-striped"
+                    style="width: 90%"
+                  ></div>
+                </div>
+              </div>
+              <div class="tab-pane container fade clearfix" id="menu1">
+                <ul class="list-unstyled float-left">
+                  <li class="media">
+                    <div class="numbers">1</div>
+                    <div class="media-body mb-4">
+                      <strong>High quality</strong>
+                      is on top of our list when it comes to the way we deliver
+                      the services
+                    </div>
+                  </li>
+                  <li class="media">
+                    <div class="numbers">2</div>
+                    <div class="media-body mb-4">
+                      <strong>Maximum impact</strong>
+                      is what we look for in our actions
+                    </div>
+                  </li>
+                  <li class="media">
+                    <div class="numbers">3</div>
+                    <div class="media-body mb-4">
+                      <strong>Quality standards</strong>
+                      are important but meant to be exceeded
+                    </div>
+                  </li>
+                </ul>
+                <ul class="list-unstyled float-right">
+                  <li class="media">
+                    <div class="numbers">4</div>
+                    <div class="media-body mb-4">
+                      <strong>We're always looking</strong>
+                      for industry leaders to help them win their market
+                      position
+                    </div>
+                  </li>
+                  <li class="media">
+                    <div class="numbers">5</div>
+                    <div class="media-body mb-4">
+                      <strong>Evaluation</strong>
+                      is a key aspect of this business and important
+                    </div>
+                  </li>
+                  <li class="media">
+                    <div class="numbers">6</div>
+                    <div class="media-body mb-4">
+                      <strong>Ethic</strong>
+                      procedures ar alwasy at the base of everything we do
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              <div class="tab-pane container fade" id="menu2">
+                <p>
+                  <strong>We strive to achieve</strong> 100% customer satisfaction for both types of customers: hiring companies and job seekers. Types of customers: <a href="#">with huge potential</a>
+                </p>
+                <p>
+                  <strong>Our goal is to help</strong> your company achieve its full potential and establish long term stability for <a href="#">the stakeholders</a>
+                </p>
+                <ul class="list-unstyled">
+                  <li>
+                    <i class="fas fa-square green-circle icon-size"></i>
+                    <span>It's easy to get a quotation, just call our office anytime</span>
+                  </li>
+                  <li>
+                    <i class="fas fa-square green-circle icon-size"></i>
+                    <span>We'll get back to you with an initial estimate soon</span>
+                  </li>
+                  <li>
+                    <i class="fas fa-square green-circle icon-size"></i>
+                    <span>Get ready to see results even after only 30 days</span>
+                  </li>
+                  <li>
+                    <i class="fas fa-square green-circle icon-size"></i>
+                    <span>Ask for a quote and start improving your business</span>
+                  </li>
+                  <li>
+                    <i class="fas fa-square green-circle icon-size"></i>
+                    <span>Just fill out the form and we'll call you right away</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            </div>
+          </div>
+          <div class="col-lg-6 bg_img2"></div>
+        </div>
+      </div>
+    </section>
+    <section id="clients" class="py-5">
+      <div class="container">
+        <div class="row text-center justify-content-center mb-5">
+          <div class="col-xl-6 col-lg-7">
+            <h2>Read Our Customer Testimonials</h2>
+            <p>
+              Our clients are our partners and we can not imagine a better future for our company without helping them reach their objectives
+            </p>
+          </div>
+        </div>
+        <div class="container-fluid">
+          <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner row w-100 mx-auto">
+              <div class="carousel-item col-lg-4 col-12 active">
+                <div class="card align-items-center text-center">
+                  <img src="resources/img/testimonial-1.jpg" class="rounded-circle mb-4">
+                  <p>
+                    The guys from Aria helped with getting my business off the ground and turning into a profitable company.
+                  </p>
+                  <span>Jude Thorn - Founder</span>
+                </div>
+              </div>
+              <div class="carousel-item col-lg-4 col-12">
+                <div class="card align-items-center text-center">
+                  <img src="resources/img/testimonial-2.jpg" class="rounded-circle mb-4">
+                  <p>
+                    I purchased the Growth Accelerator service pack a few years ago and I renewed the contract each year.
+                  </p>
+                  <span>Marsha Singer - Marketer</span>
+                </div>
+              </div>
+              <div class="carousel-item col-lg-4 col-12">
+                <div class="card align-items-center text-center">
+                  <img src="resources/img/testimonial-3.jpg" class="rounded-circle mb-4">
+                  <p>
+                    Aria's CEO personally attends client meetings and gives his feedback on business growth strategies.
+                  </p>
+                  <span>Roy Smith - Developer</span>
+                </div>
+              </div>
+              <div class="carousel-item col-lg-4">
+                <div class="card align-items-center text-center">
+                  <img src="resources/img/testimonial-4.jpg" class="rounded-circle mb-4">
+                  <p>
+                    At the beginning I thought the prices are a little high for what they offer but they over deliver each and every time.
+                  </p>
+                  <span>Ronald Spice - Owner</span>
+                </div>
+              </div>
+              <div class="carousel-item col-lg-4">
+                <div class="card align-items-center text-center">
+                  <img src="resources/img/testimonial-5.jpg" class="rounded-circle mb-4">
+                  <p>
+                    I recommend Aria to every business owner or growth leader that wants to take his company to the next level.
+                  </p>
+                  <span>Lindsay Rune - Manager</span>
+                </div>
+              </div>
+              <div class="carousel-item col-lg-4">
+                <div class="card align-items-center text-center">
+                  <img src="resources/img/testimonial-6.jpg" class="rounded-circle mb-4">
+                  <p>
+                    My goals for using Aria's services seemed high when I first set them but they've met them with no problems.
+                  </p>
+                  <span>Ann Black - Consultant</span>
+                </div>
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="form" class="py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 pb-5">
+            <div class="text-container">
+              <span>CALL ME</span>
+              <h2>Have Us Contact You By Filling And Submitting The Form</h2>
+              <p>
+                You are just a few steps away from a personalized offer. Just fill in the form and send it to us and we'll get right back with a call to help you decide what service package works.
+              </p>
+              <ul class="list-unstyled">
+                <li class="mb-2">
+                  <i class="fas fa-square green-circle icon-size"></i>
+                  It's very easy just fill in the form so we can call
+                </li>
+                <li class="mb-2">
+                  <i class="fas fa-square green-circle icon-size"></i>
+                  During the call we'll require some info about the company
+                </li>
+                <li class="mb-2">
+                  <i class="fas fa-square green-circle icon-size"></i>
+                  Don't hesitate to email us for any questions or inquiries
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="text-container">
+              <form action="">
+                <div class="form-group">
+                  <label for="">Name</label>
+                  <input type="text" class="form-control" required>
+                </div>
+                <div class="form-group">
+                  <label for="">Phone</label>
+                  <input type="tel" class="form-control" required>
+                </div>
+                <div class="form-group">
+                  <label for="">Email</label>
+                  <input type="email" class="form-control" required>
+                </div>
+                <div class="form-group selected-form-group">
+                  <select class="form-control"  required>
+                    <option value="" disabled selected>Intrested in...</option>
+                    <option value="">Off the Ground</option>
+                    <option value="">Accelerated Growth</option>
+                    <option value="">Market Domination</option>
+                  </select>
+                </div>
+                <div class="form-group form-check">
+                  <input type="checkbox" class="form-check-input" required>
+                  <label class="form-check-label">
+                    I agree with Aria's stated <a href="#"><u>Privacy Policy</u></a> and <a href="#"><u>Terms & Conditions</u></a>
+                  </label>
+                </div>
+                <div class="form-group pl-0">
+                  <button type="submit" class="btn">CALL ME</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>  
+    </section>
+    <section id="projects" class="py-5">
+      <div class="container">
+        <div class="row text-center justify-content-center pb-4">
+          <div class="text-container">
+            <span>PROJECTS</span>
+            <h2>Projects That We're Proud Of</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center" id="filtre-btn">
+          <button type="button" class="btn is_clicked text-uppercase px-3 rounded mx-2 mb-3" onclick="show_all()">show all</button>
+          <button type="button" class="btn text-uppercase px-3 rounded mx-2 mb-3" onclick="is_design()">design</button>
+          <button type="button" class="btn text-uppercase px-3 rounded mx-2 mb-3" onclick="is_dev()">development</button>
+          <button type="button" class="btn text-uppercase px-3 rounded mx-2 mb-3" onclick="is_marketing()">marketing</button>
+          <button type="button" class="btn text-uppercase px-3 rounded mx-2 mb-3" onclick="is_seo()">seo</button>
+        </div>
+        <div class="row no-gutters position">
+          <div id="div-project1" class="col-md-3 col-6 bg-dark overflow not_design not_marketing not_seo all isdev">
+            <a href="#project1" class="container-img">
+              <img id="" src="resources/img/project-1.jpg" class="img-fluid image">
+              <div  class="overlay">
+                <div class="text-img">Online Banking</div>
+              </div>
+            </a>
+          </div>
+          <div id="div-project2" class="col-md-3 col-6 bg-dark overflow not_design not_marketing not_seo all isdev">
+            <a href="#project2" class="container-img">
+              <img src="resources/img/project-2.jpg" class="img-fluid image">
+              <div class="overlay">
+                <div class="text-img">Classic Industry</div>
+              </div>
+            </a>
+          </div>
+          <div id="div-project3" class="col-md-3 col-6 bg-dark overflow not_seo all isdev isdesign ismarketing">
+            <a href="#project3" class="container-img">
+              <img src="resources/img/project-3.jpg" class="img-fluid image">
+              <div class="overlay">
+                <div class="text-img">BomBap Audio</div>
+              </div>
+            </a>
+          </div>
+          <div id="div-project4" class="col-md-3 col-6 bg-dark overflow not_seo all isdev isdesign ismarketing">
+            <a href="#project4" class="container-img">
+              <img src="resources/img/project-4.jpg" class="img-fluid image">
+              <div class="overlay">
+                <div class="text-img">Van Moose</div>
+              </div>
+            </a>
+          </div>
+          <div id="div-project5" class="col-md-3 col-6 bg-dark overflow all isdev isdesign ismarketing isseo">
+            <a href="#project5" class="container-img">
+              <img src="resources/img/project-5.jpg" class="img-fluid image">
+              <div class="overlay">
+                <div class="text-img">Joy Moments</div>
+              </div>
+            </a>
+          </div>
+          <div id="div-project6" class="col-md-3 col-6 bg-dark overflow not_dev all isdesign ismarketing isseo">
+            <a href="#project6" class="container-img">
+              <img src="resources/img/project-6.jpg" class="img-fluid image">
+              <div class="overlay">
+                <div class="text-img">Spark Events</div>
+              </div>
+            </a>
+          </div>
+          <div id="div-project7" class="col-md-3 col-6 bg-dark overflow not_dev not_seo all isdesign ismarketing">
+            <a href="#project7" class="container-img">
+              <img src="resources/img/project-7.jpg" class="img-fluid image">
+              <div class="overlay">
+                <div class="text-img">Casual Wear</div>
+              </div>
+            </a>
+          </div>
+          <div id="div-project8" class="col-md-3 col-6 bg-dark overflow not_dev not_seo all isdesign ismarketing">
+            <a href="#project8" class="container-img">
+              <img src="resources/img/project-8.jpg" class="img-fluid image">
+              <div class="overlay">
+                <div class="text-img">Zazoo Apps</div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="project1" class="project">
+      <div class="container rounded project-container">
+        <span class="close">&times;</span>
+        <div class="row"> 
+          <div class="col-lg-8 pt-4 pb-4">
+            <img src="resources/img/project-1.jpg" class="img-fluid rounded">
+          </div>
+          <div class="col-lg-4 pt-4 w-auto">
+            <h2>Online Banking</h2>
+            <hr>
+            <h5>Strategy Development</h5>
+            <p>
+              Need a solid foundation for your business growth plans? Aria will help you manage sales and meet your current needs
+            </p>
+            <p>
+              By offering the best professional services and quality products in the market. Don't hesitate and get in touch with us.
+            </p>
+            <div class="testimonials m-4">
+              <p>
+                Need a solid foundation for your business growth plans? Aria will help you manage sales and meet your current requirements.
+              </p>
+              <span>General Manager</span>
+            </div>
+            <button type="button" class="btn px-4 rounded mb-3 projectX-btn">DETAILS</button>
+            <button type="button" class="btn px-4 rounded mb-3 back-btn">BACK</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="project2" class="project">
+      <div class="container rounded project-container">
+        <span class="close">&times;</span>
+        <div class="row"> 
+          <div class="col-lg-8 pt-4 pb-4">
+            <img src="resources/img/project-2.jpg" class="img-fluid rounded">
+          </div>
+          <div class="col-lg-4 pt-4 w-auto">
+            <h2>Classic Industry</h2>
+            <hr>
+            <h5>Strategy Development</h5>
+            <p>
+              Need a solid foundation for your business growth plans? Aria will help you manage sales and meet your current needs
+            </p>
+            <p>
+              By offering the best professional services and quality products in the market. Don't hesitate and get in touch with us.
+            </p>
+            <div class="testimonials m-4">
+              <p>
+                Need a solid foundation for your business growth plans? Aria will help you manage sales and meet your current requirements.
+              </p>
+              <span>General Manager</span>
+            </div>
+            <button type="button" class="btn px-4 rounded mb-3 projectX-btn">DETAILS</button>
+            <button type="button" class="btn px-4 rounded mb-3 back-btn">BACK</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="project3" class="project">
+      <div class="container rounded project-container">
+        <span class="close">&times;</span>
+        <div class="row"> 
+          <div class="col-lg-8 pt-4 pb-4">
+            <img src="resources/img/project-3.jpg" class="img-fluid rounded">
+          </div>
+          <div class="col-lg-4 pt-4 w-auto">
+            <h2>BoomBap Audio</h2>
+            <hr>
+            <h5>Strategy Development</h5>
+            <p>
+              Need a solid foundation for your business growth plans? Aria will help you manage sales and meet your current needs
+            </p>
+            <p>
+              By offering the best professional services and quality products in the market. Don't hesitate and get in touch with us.
+            </p>
+            <div class="testimonials m-4">
+              <p>
+                Need a solid foundation for your business growth plans? Aria will help you manage sales and meet your current requirements.
+              </p>
+              <span>General Manager</span>
+            </div>
+            <button type="button" class="btn px-4 rounded mb-3 projectX-btn">DETAILS</button>
+            <button type="button" class="btn px-4 rounded mb-3 back-btn">BACK</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="project4" class="project">
+      <div class="container rounded project-container">
+        <span class="close">&times;</span>
+        <div class="row"> 
+          <div class="col-lg-8 pt-4 pb-4">
+            <img src="resources/img/project-4.jpg" class="img-fluid rounded">
+          </div>
+          <div class="col-lg-4 pt-4 w-auto">
+            <h2>Van Moose</h2>
+            <hr>
+            <h5>Strategy Development</h5>
+            <p>
+              Need a solid foundation for your business growth plans? Aria will help you manage sales and meet your current needs
+            </p>
+            <p>
+              By offering the best professional services and quality products in the market. Don't hesitate and get in touch with us.
+            </p>
+            <div class="testimonials m-4">
+              <p>
+                Need a solid foundation for your business growth plans? Aria will help you manage sales and meet your current requirements.
+              </p>
+              <span>General Manager</span>
+            </div>
+            <button type="button" class="btn px-4 rounded mb-3 projectX-btn">DETAILS</button>
+            <button type="button" class="btn px-4 rounded mb-3 back-btn">BACK</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="project5" class="project">
+      <div class="container rounded project-container">
+        <span class="close">&times;</span>
+        <div class="row"> 
+          <div class="col-lg-8 pt-4 pb-4">
+            <img src="resources/img/project-5.jpg" class="img-fluid rounded">
+          </div>
+          <div class="col-lg-4 pt-4 w-auto">
+            <h2>Joy Moments</h2>
+            <hr>
+            <h5>Strategy Development</h5>
+            <p>
+              Need a solid foundation for your business growth plans? Aria will help you manage sales and meet your current needs
+            </p>
+            <p>
+              By offering the best professional services and quality products in the market. Don't hesitate and get in touch with us.
+            </p>
+            <div class="testimonials m-4">
+              <p>
+                Need a solid foundation for your business growth plans? Aria will help you manage sales and meet your current requirements.
+              </p>
+              <span>General Manager</span>
+            </div>
+            <button type="button" class="btn px-4 rounded mb-3 projectX-btn">DETAILS</button>
+            <button type="button" class="btn px-4 rounded mb-3 back-btn">BACK</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="project6" class="project">
+      <div class="container rounded project-container">
+        <span class="close">&times;</span>
+        <div class="row"> 
+          <div class="col-lg-8 pt-4 pb-4">
+            <img src="resources/img/project-6.jpg" class="img-fluid rounded">
+          </div>
+          <div class="col-lg-4 pt-4 w-auto">
+            <h2>Spark Events</h2>
+            <hr>
+            <h5>Strategy Development</h5>
+            <p>
+              Need a solid foundation for your business growth plans? Aria will help you manage sales and meet your current needs
+            </p>
+            <p>
+              By offering the best professional services and quality products in the market. Don't hesitate and get in touch with us.
+            </p>
+            <div class="testimonials m-4">
+              <p>
+                Need a solid foundation for your business growth plans? Aria will help you manage sales and meet your current requirements.
+              </p>
+              <span>General Manager</span>
+            </div>
+            <button type="button" class="btn px-4 rounded mb-3 projectX-btn">DETAILS</button>
+            <button type="button" class="btn px-4 rounded mb-3 back-btn">BACK</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="project7" class="project">
+      <div class="container rounded project-container">
+        <span class="close">&times;</span>
+        <div class="row"> 
+          <div class="col-lg-8 pt-4 pb-4">
+            <img src="resources/img/project-7.jpg" class="img-fluid rounded">
+          </div>
+          <div class="col-lg-4 pt-4 w-auto">
+            <h2>Casual Wear</h2>
+            <hr>
+            <h5>Strategy Development</h5>
+            <p>
+              Need a solid foundation for your business growth plans? Aria will help you manage sales and meet your current needs
+            </p>
+            <p>
+              By offering the best professional services and quality products in the market. Don't hesitate and get in touch with us.
+            </p>
+            <div class="testimonials m-4">
+              <p>
+                Need a solid foundation for your business growth plans? Aria will help you manage sales and meet your current requirements.
+              </p>
+              <span>General Manager</span>
+            </div>
+            <button type="button" class="btn px-4 rounded mb-3 projectX-btn">DETAILS</button>
+            <button type="button" class="btn px-4 rounded mb-3 back-btn">BACK</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="project8" class="project">
+      <div class="container rounded project-container">
+        <span class="close">&times;</span>
+        <div class="row"> 
+          <div class="col-lg-8 pt-4 pb-4">
+            <img src="resources/img/project-8.jpg" class="img-fluid rounded">
+          </div>
+          <div class="col-lg-4 pt-4 w-auto">
+            <h2>Zazoo Apps</h2>
+            <hr>
+            <h5>Strategy Development</h5>
+            <p>
+              Need a solid foundation for your business growth plans? Aria will help you manage sales and meet your current needs
+            </p>
+            <p>
+              By offering the best professional services and quality products in the market. Don't hesitate and get in touch with us.
+            </p>
+            <div class="testimonials m-4">
+              <p>
+                Need a solid foundation for your business growth plans? Aria will help you manage sales and meet your current requirements.
+              </p>
+              <span>General Manager</span>
+            </div>
+            <button type="button" class="btn px-4 rounded mb-3 projectX-btn">DETAILS</button>
+            <button type="button" class="btn px-4 rounded mb-3 back-btn">BACK</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="team" class="py-5">
+      <div class="container">
+        <div class="row text-center justify-content-center mb-5">
+          <div class="col-lg-7">
+            <h2>Our Team Of Consultants</h2>
+            <p>
+              We're only as strong and as knowledgeable as our team. So here are the men and women which help customers meet goals and grow companies
+            </p>
+          </div>
+        </div>
+        <div class="row text-center">
+          <div class="col-lg-3 col-md-6">
+            <div class="card">
+              <div class="card-img">
+                <img src="resources/img/team-1.png">
+              </div>
+              <p>John Whitelong</p>
+              <h6>General Manager</h6>
+              <div>
+                <span class="fa-stack fa-1x">
+                  <i class="fas fa-circle fa-stack-2x green-circle"></i>
+                  <i class="fab fa-facebook-f fa-stack-1x white-icon"></i>
+                </span>
+                <span class="fa-stack fa-1x">
+                  <i class="fas fa-circle fa-stack-2x green-circle"></i>
+                  <i class="fab fa-twitter fa-stack-1x white-icon"></i>
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="card">
+              <div class="card-img">
+                <img src="resources/img/team-2.png" alt="">
+              </div>
+              <p>Veronique Smith</p>
+              <h6>Business Developer</h6>
+              <div>
+                <span class="fa-stack fa-1x">
+                  <i class="fas fa-circle fa-stack-2x green-circle"></i>
+                  <i class="fab fa-facebook-f fa-stack-1x white-icon"></i>
+                </span>
+                <span class="fa-stack fa-1x">
+                  <i class="fas fa-circle fa-stack-2x green-circle"></i>
+                  <i class="fab fa-twitter fa-stack-1x white-icon"></i>
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="card">
+              <div class="card-img">
+                <img src="resources/img/team-3.png" alt="">
+              </div>
+              <p>Chris Zimerman</p>
+              <h6>Online Marketer</h6>
+              <div>
+                <span class="fa-stack fa-1x">
+                  <i class="fas fa-circle fa-stack-2x green-circle"></i>
+                  <i class="fab fa-facebook-f fa-stack-1x white-icon"></i>
+                </span>
+                <span class="fa-stack fa-1x">
+                  <i class="fas fa-circle fa-stack-2x green-circle"></i>
+                  <i class="fab fa-twitter fa-stack-1x white-icon"></i>
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="card">
+              <div class="card-img">
+                <img src="resources/img/team-4.png" alt="">
+              </div>
+              <p>Mary Villalonga</p>
+              <h6>Community Manager</h6>
+              <div>
+                <span class="fa-stack fa-1x">
+                  <i class="fas fa-circle fa-stack-2x green-circle"></i>
+                  <i class="fab fa-facebook-f fa-stack-1x white-icon"></i>
+                </span>
+                <span class="fa-stack fa-1x">
+                  <i class="fas fa-circle fa-stack-2x green-circle"></i>
+                  <i class="fab fa-twitter fa-stack-1x white-icon"></i>
+                </span>
+              </div>
+            </div>
+          </div>  
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-5 py-5 align-self-center">
+            <div class="img-container">
+              <img src="resources/img/about.jpg" class="img-fluid rounded">
+            </div>
+          </div>
+          <div class="col-lg-7 py-5">
+            <div class="text-container">
+              <span>ABOUT</span>
+              <h2>We're Passionate About Delivering Growth Services</h2>
+              <p>
+                Our goal is to provide the right business growth services at the appropriate time so companies can benefit from the created momentum and thrive for a long period of time
+              </p>
+              <ul class="list-unstyled">
+                <li class="mb-2">
+                  <i class="fas fa-square green-circle icon-size"></i>
+                  Everything we recommend has direct positive impact
+                </li>
+                <li class="mb-2">
+                  <i class="fas fa-square green-circle icon-size"></i>
+                  You will become an important partner of our company
+                </li>
+              </ul>
+              <div id="#counter" class="count-cell text-center">
+                <div class="cell">
+                  <div class="count">231</div>
+                  <div class="count-text">
+                    Happy<br>Users
+                  </div>
+                </div>
+                <div class="cell">
+                  <div class="count">121</div>
+                  <div class="count-text">
+                    Issues<br>Solved
+                  </div>
+                </div>
+                <div class="cell">
+                  <div class="count">159</div>
+                  <div class="count-text">
+                    Good<br>Reviews
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 py-5">
+            <div class="text-container">
+              <span class="first-child-span">CONTACT</span>
+              <h2>Get In Touch Using The Form</h2>
+              <p>
+                You can stop by our office for a cup of coffee and just use the contact form below for any questions and inquiries
+              </p>
+              <ul class="list-unstyled">
+                <li class="d-block mb-3">
+                  <i class="fas fa-map-marker-alt green-circle mr-1"></i>
+                  You can find us <button type="button" class="btn my-position projectX-btn">Here</button>
+                </li>
+                <li class="d-inline-block mb-2 mr-3">
+                  <i class="fas fa-phone green-circle mr-1"></i>
+                  <a href="tel:0708082462">
+                    <u>+212 7 08 08 24 62</u>
+                  </a>
+                </li>
+                <li class="d-inline-block mb-2">
+                  <i class="fas fa-phone green-circle mr-1"></i>
+                  <a href="tel:0628042224">
+                    <u>+212 6 28 04 22 24</u>
+                  </a>
+                </li>
+                <li class="d-inline-block mb-2">
+                  <i class="fas fa-envelope green-circle mr-1"></i>
+                  <a href="mailto:yassine.bentaoui@gmail.com">
+                    <u>yassine.bentaoui@gmail.com</u>
+                  </a>
+                </li>
+              </ul>
+              <h4>Follow Aria On Social Media</h4>
+              <div class="social-media">
+                <span class="fa-stack fa-2x">
+                  <i class="fas fa-circle fa-stack-2x green-circle"></i>
+                  <i class="fab fa-facebook-f fa-stack-1x fa-inverse"></i>
+                </span>
+                <span class="fa-stack fa-2x">
+                  <i class="fas fa-circle fa-stack-2x green-circle"></i>
+                  <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
+                </span>
+                <span class="fa-stack fa-2x">
+                  <i class="fas fa-circle fa-stack-2x green-circle"></i>
+                  <i class="fab fa-pinterest-p fa-stack-1x fa-inverse"></i>
+                </span>
+                <span class="fa-stack fa-2x">
+                  <i class="fas fa-circle fa-stack-2x green-circle"></i>
+                  <i class="fab fa-instagram fa-stack-1x fa-inverse"></i>
+                </span>
+                <span class="fa-stack fa-2x">
+                  <i class="fas fa-circle fa-stack-2x green-circle"></i>
+                  <i class="fab fa-linkedin-in fa-stack-1x fa-inverse"></i>
+                </span>
+                <span class="fa-stack fa-2x">
+                  <i class="fas fa-circle fa-stack-2x green-circle"></i>
+                  <i class="fab fa-behance fa-stack-1x fa-inverse"></i>
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 py-5">
+            <div class="text-container">
+              <form action="">
+                <div class="form-group">
+                  <label for="">Name</label>
+                  <input type="text" class="form-control" required>
+                </div>
+                <div class="form-group">
+                  <label for="">Email</label>
+                  <input type="email" class="form-control" required>
+                </div>
+                <div class="form-group">
+                  <label for="">Your message</label>
+                  <textarea rows="5" class="form-control" required></textarea>
+                </div>
+                <div class="form-group form-check">
+                  <input type="checkbox" class="form-check-input" required>
+                  <label class="form-check-label">
+                    I agree with Aria's stated <a href="#"><u>Privacy Policy</u></a> and <a href="#"><u>Terms & Conditions</u></a>
+                  </label>
+                </div>
+                <div class="form-group form-btn pl-0">
+                  <button type="submit" class="btn">CALL ME</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="map" class="project">
+      <div class="container">
+        <span class="close">&times;</span>
+        <div class="row">
+          <div class="col">
+            <div class="embed-responsive embed-responsive-4by3">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13510.905699411951!2d-6.35546972732017!3d32.15768061448614!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xda37f192b10b4e1%3A0x3ccced7c7864402d!2sOuaouizeght!5e0!3m2!1sfr!2sma!4v1606329587736!5m2!1sfr!2sma" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="pt-5">
+      <div class="container">
+        <div class="row pt-5">
+          <div class="col-lg-6 col-md-8">
+            <h4>Few Words About Aria</h4>
+            <p>
+              We're passionate about delivering the best business growth services for companies just starting out as startups or industry players that have established their market position a long tima ago.
+            </p>
+          </div>
+          <div class="col-lg-2 col-md-4">
+            <h4>Links</h4>
+            <ul class="list-unstyled">
+              <li>
+                <a href="#"><u>startupguide.com</u></a>
+              </li>
+              <li>
+                <a href="#"><u>Terms & Conditions</u></a>
+              </li>
+              <li>
+                <a href="#"><u>Privacy Policy</u></a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-2 col-md-8">
+            <h4>Tools</h4>
+            <ul class="list-unstyled">
+              <li>
+                <a href="#"><u>businessgrowth.com</u></a>
+              </li>
+              <li>
+                <a href="#"><u>influencers.com</u></a>
+              </li>
+              <li>
+                <a href="#"><u>optimizer.net</u></a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-2 col-md-4">
+            <h4>Partners</h4>
+            <ul class="list-unstyled">
+              <li>
+                <a href="#"><u>unicorns.com</u></a>
+              </li>
+              <li>
+                <a href="#"><u>staffmanager.com</u></a>
+              </li>
+              <li>
+                <a href="#"><u>association.gov</u></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="row justify-content-center pt-5">
+          <p>Copyright © 2020 Template by YASBEN_DEV</p>
+        </div>
+      </div>
+    </footer>
+    
+    
+    <script src="vendors/js/jquery-3.5.1.min.js"></script>
+    <script src="vendors/js/bootstrap.bundle.min.js"></script>
+    <script src="resources/js/script.js"></script>
+  </body>
+</html>
